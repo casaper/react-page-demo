@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "lib",
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -14,13 +12,5 @@
     "declaration": false,
     "declarationMap": false,
     "composite": false
-  },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "lib",
-    "node_modules",
-    "src/**/__tests__/**/*.*"
-  ]
+  }
 }
